@@ -1,0 +1,65 @@
+.myForm {
+    background-color: rgba(0, 0, 0, 0.5) !important;
+    padding: 15px !important;
+    border-radius: 15px !important;
+    color: white;
+}
+
+input {
+    border-radius: 0 15px 15px 0 !important;
+}
+
+input:focus {
+    outline: none;
+    box-shadow: none !important;
+    border: 1px solid #ccc !important;
+}
+
+.br-15 {
+    border-radius: 15px 0 0 15px !important;
+}
+
+.submit_btn {
+    border-radius: 15px !important;
+    background-color: #95c714 !important;
+    border: 0 !important;
+}
+
+.card {
+    min-width: 340px;
+}
+
+.btn-outline-success {
+    color: black;
+}
+
+.btn {
+    border-radius: 15px !important;
+}
+
+input {
+    border-radius: 15px !important;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 355px) {
+    .card {
+        width: 125%;
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (min-device-width: 356px) and (max-device-width: 400px) {
+    .card {
+        width: 106%;
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (min-device-width: 401px) and (max-device-width: 530px) {
+    .card {
+        width: 106%;
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (min-device-width: 700px) and (max-device-width: 800px) {}

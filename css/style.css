@@ -1,0 +1,949 @@
+img {
+    margin-left: 25%;
+}
+
+.home_header {
+    background: #3F0A1A;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    height: 300px;
+    width: 100%;
+}
+
+.home_header .desenvolvimento {
+    padding-top: 80px;
+}
+
+.slogan {
+    padding-top: 30px;
+    font-size: 25px;
+    color: rgb(199, 143, 143);
+}
+
+.home_meio {
+    background: #FFD463;
+    height: 327px;
+}
+
+.home_meio .contato {
+    color: black;
+    font-size: 30px;
+    line-height: 35px;
+    padding-top: 125px;
+    padding-left: 170px;
+}
+
+.copyright {
+    background: black;
+    color: white;
+    text-align: center;
+    font-size: 17px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 30px;
+    padding-top: 5px;
+    width: 100%;
+    background: #f98606;
+    padding: 10px 0;
+    text-align: center;
+    font-weight: bold;
+}
+
+div.home_meio img {
+    margin-left: 50em;
+    margin-top: -140px;
+}
+
+.msg_cadastro {
+    color: purple;
+    font-size: 30px;
+}
+
+.msg_monitor {
+    color: orange;
+    font-size: 30px;
+}
+
+.msg_cardapio {
+    color: green;
+    font-size: 30px;
+}
+
+input#cad_cardapio {
+    width: 15em;
+    height: 8em;
+}
+
+input#monitor {
+    width: 15em;
+    height: 8em;
+}
+
+input#cardapio {
+    width: 15em;
+    height: 8em;
+}
+
+h2#cardapio_header {
+    font-size: 30px;
+    color: orange;
+    line-height: 30px;
+    margin-left: 17em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    text-decoration: underline;
+}
+
+
+/* estilos gerais */
+
+h1 {
+    margin: 0 auto;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    margin-left: 25%;
+}
+
+h3 {
+    margin-top: 20px;
+    font-size: 18px;
+    text-transform: uppercase;
+    line-height: .5em;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.copyright {
+    width: 100%;
+    background: #f98606;
+    padding: 10px 0;
+    text-align: center;
+    font-weight: bold;
+}
+
+input#numero_pedido_1,
+input#numero_pedido_2,
+input#numero_pedido_3,
+input#numero_pedido_4,
+input#numero_pedido_5,
+input#numero_pedido_6,
+input#numero_pedido_7,
+input#numero_pedido_8,
+input#numero_pedido_9,
+input#numero_pedido_10,
+input#numero_pedido_11,
+input#numero_pedido_12,
+input#numero_pedido_13,
+input#numero_pedido_14,
+input#numero_pedido_15,
+input#numero_pedido_pendente_1,
+input#numero_pedido_pendente_2,
+input#numero_pedido_pendente_3 {
+    width: 163px;
+}
+
+input#aceito_em_1,
+input#aceito_em_2,
+input#aceito_em_3,
+input#aceito_em_4,
+input#aceito_em_5,
+input#aceito_em_6,
+input#aceito_em_7,
+input#aceito_em_8,
+input#aceito_em_9,
+input#aceito_em_10,
+input#aceito_em_11,
+input#aceito_em_12,
+input#aceito_em_13,
+input#aceito_em_14,
+input#aceito_em_15,
+input#aceito_em_pendente_1,
+input#aceito_em_pendente_2,
+input#aceito_em_pendente_3 {
+    width: 208px;
+}
+
+input#entregar_ate_1,
+input#entregar_ate_2,
+input#entregar_ate_3,
+input#entregar_ate_4,
+input#entregar_ate_5,
+input#entregar_ate_6,
+input#entregar_ate_7,
+input#entregar_ate_8,
+input#entregar_ate_9,
+input#entregar_ate_10,
+input#entregar_ate_11,
+input#entregar_ate_12,
+input#entregar_ate_13,
+input#entregar_ate_14,
+input#entregar_ate_15,
+input#entregar_ate_pendente_1,
+input#entregar_ate_pendente_2,
+input#entregar_ate_pendente_3 {
+    width: 192px;
+}
+
+input#tipo_1,
+input#tipo_2,
+input#tipo_3,
+input#tipo_4,
+input#tipo_5,
+input#tipo_6,
+input#tipo_7,
+input#tipo_8,
+input#tipo_9,
+input#tipo_10,
+input#tipo_11,
+input#tipo_12,
+input#tipo_13,
+input#tipo_14,
+input#tipo_15 {
+    width: 249px;
+}
+
+input#tipo_pendente_1,
+input#tipo_pendente_2,
+input#tipo_pendente_3 {
+    width: 249px;
+    font-size: 30px;
+    background: rgba(150, 106, 48, 0.678);
+    border: none;
+    color: white;
+    border-radius: 10px;
+}
+
+input#tempo_entrega_1,
+input#tempo_entrega_2,
+input#tempo_entrega_3,
+input#tempo_entrega_4,
+input#tempo_entrega_5,
+input#tempo_entrega_6,
+input#tempo_entrega_7,
+input#tempo_entrega_8,
+input#tempo_entrega_9,
+input#tempo_entrega_10,
+input#tempo_entrega_11,
+input#tempo_entrega_12,
+input#tempo_entrega_13,
+input#tempo_entrega_14,
+input#tempo_entrega_15 {
+    width: 151px;
+}
+
+input#tempo_entrega_pendente_1,
+input#tempo_entrega_pendente_2,
+input#tempo_entrega_pendente_3 {
+    width: 151px;
+    font-size: 15px;
+    background: rgba(150, 106, 48, 0.678);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+}
+
+input#tipo_pagamento_1,
+input#tipo_pagamento_2,
+input#tipo_pagamento_3,
+input#tipo_pagamento_4,
+input#tipo_pagamento_5,
+input#tipo_pagamento_6,
+input#tipo_pagamento_7,
+input#tipo_pagamento_8,
+input#tipo_pagamento_9,
+input#tipo_pagamento_10,
+input#tipo_pagamento_11,
+input#tipo_pagamento_12,
+input#tipo_pagamento_13,
+input#tipo_pagamento_14,
+input#tipo_pagamento_15,
+input#tipo_pagamento_pendente_1,
+input#tipo_pagamento_pendente_2,
+input#tipo_pagamento_pendente_3 {
+    width: 142px;
+}
+
+input#sub_total_1,
+input#sub_total_2,
+input#sub_total_3,
+input#sub_total_4,
+input#sub_total_5,
+input#sub_total_6,
+input#sub_total_7,
+input#sub_total_8,
+input#sub_total_9,
+input#sub_total_10,
+input#sub_total_11,
+input#sub_total_12,
+input#sub_total_13,
+input#sub_total_14,
+input#sub_total_15,
+input#sub_total_pendente_1,
+input#sub_total_pendente_2,
+input#sub_total_pendente_3 {
+    width: 216px;
+}
+
+input#taxa_de_entrega_1,
+input#taxa_de_entrega_2,
+input#taxa_de_entrega_3,
+input#taxa_de_entrega_4,
+input#taxa_de_entrega_5,
+input#taxa_de_entrega_6,
+input#taxa_de_entrega_7,
+input#taxa_de_entrega_8,
+input#taxa_de_entrega_9,
+input#taxa_de_entrega_10,
+input#taxa_de_entrega_11,
+input#taxa_de_entrega_12,
+input#taxa_de_entrega_13,
+input#taxa_de_entrega_14,
+input#taxa_de_entrega_15,
+input#taxa_de_entrega_pendente_1,
+input#taxa_de_entrega_pendente_2,
+input#taxa_de_entrega_pendente_3 {
+    width: 165px;
+}
+
+input#total_1,
+input#total_2,
+input#total_3,
+input#total_4,
+input#total_5,
+input#total_6,
+input#total_7,
+input#total_8,
+input#total_9,
+input#total_10,
+input#total_11,
+input#total_12,
+input#total_13,
+input#total_14,
+input#total_15,
+input#total_pendente_1,
+input#total_pendente_2,
+input#total_pendente_3 {
+    width: 246px;
+}
+
+input#nome_cliente_1,
+input#nome_cliente_2,
+input#nome_cliente_3,
+input#nome_cliente_4,
+input#nome_cliente_5,
+input#nome_cliente_6,
+input#nome_cliente_7,
+input#nome_cliente_8,
+input#nome_cliente_9,
+input#nome_cliente_10,
+input#nome_cliente_11,
+input#nome_cliente_12,
+input#nome_cliente_13,
+input#nome_cliente_14,
+input#nome_cliente_15,
+input#nome_cliente_pendente_1,
+input#nome_cliente_pendente_2,
+input#nome_cliente_pendente_3 {
+    width: 186px;
+}
+
+input#email_cliente_1,
+input#email_cliente_2,
+input#email_cliente_3,
+input#email_cliente_4,
+input#email_cliente_5,
+input#email_cliente_6,
+input#email_cliente_7,
+input#email_cliente_8,
+input#email_cliente_9,
+input#email_cliente_10,
+input#email_cliente_11,
+input#email_cliente_12,
+input#email_cliente_13,
+input#email_cliente_14,
+input#email_cliente_15,
+input#email_cliente_pendente_1,
+input#email_cliente_pendente_2,
+input#email_cliente_pendente_3 {
+    width: 240px;
+}
+
+input#endereco_cliente_1,
+input#endereco_cliente_2,
+input#endereco_cliente_3,
+input#endereco_cliente_4,
+input#endereco_cliente_5,
+input#endereco_cliente_6,
+input#endereco_cliente_7,
+input#endereco_cliente_8,
+input#endereco_cliente_9,
+input#endereco_cliente_10,
+input#endereco_cliente_11,
+input#endereco_cliente_12,
+input#endereco_cliente_13,
+input#endereco_cliente_14,
+input#endereco_cliente_15,
+input#endereco_cliente_pendente_1,
+input#endereco_cliente_pendente_2,
+input#endereco_cliente_pendente_3 {
+    width: 211px;
+}
+
+form#form_msg_1,
+form#form_msg_2,
+form#form_msg_3,
+form#form_msg_4,
+form#form_msg_5,
+form#form_msg_6,
+form#form_msg_7,
+form#form_msg_8,
+form#form_msg_9,
+form#form_msg_10,
+form#form_msg_11,
+form#form_msg_12,
+form#form_msg_13,
+form#form_msg_14,
+form#form_msg_15,
+form#form_msg_pendente_1,
+form#form_msg_pendente_2,
+form#form_msg_pendente_3 {
+    margin-left: 10%;
+}
+
+textarea {
+    width: 289px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+textarea#itens_pendente_1,
+textarea#itens_pendente_2,
+textarea#itens_pendente_3,
+textarea#observacoes_pendente_1,
+textarea#observacoes_pendente_2,
+textarea#observacoes_pendente_3,
+textarea#endereco_cliente_pendente_1,
+textarea#endereco_cliente_pendente_2,
+textarea#endereco_cliente_pendente_3 {
+    width: 380px;
+    background: rgba(230, 184, 125, 0.678);
+    /* border: 2px solid rgb(150, 66, 14); */
+    color: black;
+}
+
+input {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cancelado {
+    background: rgba(212, 10, 10, 0.979);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    line-height: 30px;
+    color: white;
+}
+
+.aceito {
+    background: rgb(98, 228, 98);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+.entrega {
+    background: #EDB601;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    line-height: 30px;
+    color: white;
+}
+
+.reserva {
+    background: #4fa7ff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    line-height: 30px;
+    color: white;
+}
+
+.reserva_com_pedido {
+    background: #7d1deb;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    line-height: 30px;
+    color: white;
+}
+
+.historico {
+    border: 5px solid #f98606;
+    padding: 22px 122px;
+    color: #f98606;
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    font-weight: bold;
+    margin: 66px 0px 61px -21px;
+    transform: translate(-14em, 0em);
+}
+
+.historico:hover {
+    color: rgba(212, 10, 10, 0.979);
+    border-color: black;
+}
+
+.subir {
+    border: 5px solid rgb(98, 228, 98);
+    padding: 22px 122px;
+    color: rgb(98, 228, 98);
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    font-weight: bold;
+    transform: translate(12em, -9.7em);
+}
+
+.subir:hover {
+    color: #EDB601;
+    border-color: black;
+}
+
+div.grid-16.pedido_espera p#quantidade_pedidos {
+    max-width: 130px;
+    transform: translate(7.5em, -2em);
+    font-size: 100px;
+    max-height: 300px;
+    color: black;
+    margin-bottom: -1.5em;
+}
+
+div.grid-16.pedido_espera p#pedido_pendente {
+    font-size: 25px;
+    text-align: center;
+    transform: translate(30em, -1em);
+    max-width: 200px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+input#ver_pedidos_pendentes {
+    max-width: 200px;
+}
+
+h1.pagina_pedidos_pendentes {
+    font-size: 60px;
+    margin-top: 20px;
+    margin-left: 22%;
+}
+
+.header_menu h3 {
+    font-size: 50px;
+    text-transform: capitalize;
+    color: black;
+    display: block;
+    text-align: center;
+    margin: 65px 0 0 0;
+    font-family: 'Acme', sans-serif;
+}
+
+.header_menu h3 h3::before {
+    width: 80px;
+    height: 1.5px;
+    bottom: 0;
+    left: 50%;
+    margin-left: -40px;
+}
+
+.myForm2 {
+    background-color: rgb(245, 144, 86) !important;
+    padding: 7px 20px 35px 20px !important;
+    border-radius: 15px !important;
+    color: black;
+    max-width: 35% !important;
+    margin-left: 50px;
+    height: 100%;
+    text-align: center;
+    font-size: 25px;
+}
+
+.modal-pendente {
+    position: relative !important;
+    /* display: -ms-flexbox; */
+    display: flex!important;
+    /* -ms-flex-direction: column; */
+    flex-direction: column !important;
+    width: 96.5% !important;
+    pointer-events: auto !important;
+    background-color: #fff !important;
+    background-clip: padding-box !important;
+    border: 1px solid #f1b1b133 !important;
+    border-radius: .3rem !important;
+    outline: 0 !important;
+    margin-left: 35px !important;
+}
+
+.copyright_index {
+    background: black;
+    color: white;
+    font-size: 17px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 5px;
+    width: 100%;
+    background: #E63333;
+    padding: 10px 0;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 2%;
+}
+
+#botao_motoboy {
+    margin: 40px 0px -21px 35.6%;
+    width: 320px;
+    height: 50px;
+}
+
+.pagina_motoboy {
+    margin: 0 0 9px 43%;
+    font-size: 30px;
+    font-family: monospace;
+}
+
+.label_motoboy {
+    background: coral;
+    color: white;
+    font-size: 19px;
+    font-family: inherit;
+    letter-spacing: 2px;
+}
+
+#select_motoboy_relatorio_id {
+    transform: translateY(-20px);
+    margin-left: 1%
+}
+
+.modal_pedidos_pendentes {
+    text-align: center;
+    background: #E6DAA1;
+    padding-top: 15px;
+    PADDING-BOTTOM: 35px;
+    max-width: 31% !important;
+    margin: 10px 10px 0 10px;
+    border: 6px solid rgb(150, 66, 14);
+    border-radius: 15px;
+}
+
+.modal_pedidos_pendentes_2 {
+    text-align: center;
+    background: #E6DAA1;
+    padding-top: 15px;
+    PADDING-BOTTOM: 35px;
+    max-width: 31% !important;
+    margin: 10px 10px 0 40px;
+    border: 6px solid rgb(150, 66, 14);
+    border-radius: 15px;
+}
+
+.select_pendente {
+    margin: 0 0 15px 15px;
+    background: white;
+    color: black;
+}
+
+.btn-aceitar {
+    background: #28A745;
+    width: 155px;
+    height: 60px;
+    color: white;
+    border: 2px solid #28A745;
+    border-radius: 15px;
+}
+
+.btn-recusar {
+    background: #DC3545;
+    width: 155px;
+    height: 60px;
+    color: white;
+    border: 2px solid #DC3545;
+    border-radius: 15px;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 355px) {
+    textarea#itens_pendente_1,
+    textarea#itens_pendente_2,
+    textarea#itens_pendente_3,
+    textarea#observacoes_pendente_1,
+    textarea#observacoes_pendente_2,
+    textarea#observacoes_pendente_3,
+    textarea#endereco_cliente_pendente_1,
+    textarea#endereco_cliente_pendente_2,
+    textarea#endereco_cliente_pendente_3 {
+        width: 260px;
+    }
+    .btn-aceitar {
+        background: #28A745;
+        width: 90px;
+    }
+    .btn-recusar {
+        background: #DC3545;
+        width: 90px;
+    }
+    footer {
+        max-width: 98% !important;
+    }
+    .header_menu h3 {
+        font-size: 50px;
+    }
+    .modal_pedidos_pendentes {
+        text-align: center;
+        background: #FFDF92;
+        padding-top: 30px;
+        max-width: none !important;
+        margin: 10px 10px 0 10px;
+    }
+    .modal_pedidos_pendentes_2 {
+        text-align: center;
+        background: #FFDF92;
+        padding-top: 30px;
+        max-width: none !important;
+        margin: 10px 10px 0px 10px;
+    }
+    div.modal-body {
+        width: 100%;
+    }
+    .modal-content {
+        position: relative;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        width: 95%;
+        pointer-events: auto;
+        background-color: #fff;
+        background-clip: padding-box;
+        border: 1px solid rgba(0, 0, 0, .2);
+        border-radius: .3rem;
+        outline: 0;
+    }
+    .modal-header {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-align: start;
+        align-items: flex-start;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        padding: 1rem 1rem;
+        border-bottom: 1px solid #dee2e6;
+        border-top-left-radius: calc(.3rem - 1px);
+        border-top-right-radius: calc(.3rem - 1px);
+    }
+    #botao_motoboy {
+        margin-bottom: -23px !important;
+        margin: 10px auto;
+        width: 260px;
+        height: 50px;
+    }
+    .myForm2 {
+        background-color: rgb(245, 144, 86) !important;
+        padding: 7px 20px 35px 20px !important;
+        border-radius: 15px !important;
+        color: black;
+        max-width: 84% !important;
+        margin-left: 25px;
+        height: 100%;
+        text-align: center;
+        font-size: 25px;
+    }
+}
+
+@media only screen and (min-device-width: 356px) and (max-device-width: 400px) {
+    textarea#itens_pendente_1,
+    textarea#itens_pendente_2,
+    textarea#itens_pendente_3,
+    textarea#observacoes_pendente_1,
+    textarea#observacoes_pendente_2,
+    textarea#observacoes_pendente_3,
+    textarea#endereco_cliente_pendente_1,
+    textarea#endereco_cliente_pendente_2,
+    textarea#endereco_cliente_pendente_3 {
+        width: 340px;
+    }
+    .btn-aceitar {
+        background: #28A745;
+        width: 90px;
+    }
+    .btn-recusar {
+        background: #DC3545;
+        width: 90px;
+    }
+    footer {
+        max-width: 98% !important;
+    }
+    .header_menu h3 {
+        font-size: 50px;
+    }
+    .modal_pedidos_pendentes {
+        text-align: center;
+        background: #FFDF92;
+        padding-top: 30px;
+        max-width: none !important;
+        margin: 10px 10px 0 10px;
+    }
+    .modal_pedidos_pendentes_2 {
+        text-align: center;
+        background: #FFDF92;
+        padding-top: 30px;
+        max-width: none !important;
+        margin: 10px 10px 0px 10px;
+    }
+    div.modal-body {
+        width: 100%;
+    }
+    .modal-content {
+        position: relative;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        width: 95%;
+        pointer-events: auto;
+        background-color: #fff;
+        background-clip: padding-box;
+        border: 1px solid rgba(0, 0, 0, .2);
+        border-radius: .3rem;
+        outline: 0;
+    }
+    .modal-header {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-align: start;
+        align-items: flex-start;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        padding: 1rem 1rem;
+        border-bottom: 1px solid #dee2e6;
+        border-top-left-radius: calc(.3rem - 1px);
+        border-top-right-radius: calc(.3rem - 1px);
+    }
+    #botao_motoboy {
+        margin-bottom: -23px !important;
+        margin: 30px auto;
+        width: 305px;
+        height: 50px;
+    }
+    .myForm2 {
+        background-color: rgb(245, 144, 86) !important;
+        padding: 7px 20px 35px 20px !important;
+        border-radius: 15px !important;
+        color: black;
+        max-width: 84% !important;
+        margin-left: 25px;
+        height: 100%;
+        text-align: center;
+        font-size: 25px;
+    }
+}
+
+@media only screen and (min-device-width: 401px) and (max-device-width: 530px) {
+    textarea#itens_pendente_1,
+    textarea#itens_pendente_2,
+    textarea#itens_pendente_3,
+    textarea#observacoes_pendente_1,
+    textarea#observacoes_pendente_2,
+    textarea#observacoes_pendente_3,
+    textarea#endereco_cliente_pendente_1,
+    textarea#endereco_cliente_pendente_2,
+    textarea#endereco_cliente_pendente_3 {
+        width: 340px;
+    }
+    .btn-aceitar {
+        background: #28A745;
+        width: 90px;
+    }
+    .btn-recusar {
+        background: #DC3545;
+        width: 90px;
+    }
+    footer {
+        max-width: 98% !important;
+    }
+    .header_menu h3 {
+        font-size: 50px;
+    }
+    .modal_pedidos_pendentes {
+        text-align: center;
+        background: #FFDF92;
+        padding-top: 30px;
+        max-width: none !important;
+        margin: 10px 10px 0 10px;
+    }
+    .modal_pedidos_pendentes_2 {
+        text-align: center;
+        background: #FFDF92;
+        padding-top: 30px;
+        max-width: none !important;
+        margin: 10px 10px 0px 10px;
+    }
+    div.modal-body {
+        width: 100%;
+    }
+    .modal-content {
+        position: relative;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        width: 95%;
+        pointer-events: auto;
+        background-color: #fff;
+        background-clip: padding-box;
+        border: 1px solid rgba(0, 0, 0, .2);
+        border-radius: .3rem;
+        outline: 0;
+    }
+    .modal-header {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-align: start;
+        align-items: flex-start;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        padding: 1rem 1rem;
+        border-bottom: 1px solid #dee2e6;
+        border-top-left-radius: calc(.3rem - 1px);
+        border-top-right-radius: calc(.3rem - 1px);
+    }
+    #botao_motoboy {
+        margin-bottom: -23px !important;
+        margin: 10px auto;
+        width: 340px;
+        height: 50px;
+    }
+    .myForm2 {
+        background-color: rgb(245, 144, 86) !important;
+        padding: 7px 20px 35px 20px !important;
+        border-radius: 15px !important;
+        color: black;
+        max-width: 84% !important;
+        margin-left: 25px;
+        height: 100%;
+        text-align: center;
+        font-size: 25px;
+    }
+}
+
+@media only screen and (min-device-width: 700px) and (max-device-width: 800px) {
+    .modal_pedidos_pendentes {
+        text-align: center;
+        background: #FFDF92;
+        padding-top: 30px;
+        max-width: none !important;
+        margin: 10px 10px 0 10px;
+    }
+}

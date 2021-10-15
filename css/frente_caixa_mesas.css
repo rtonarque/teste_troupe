@@ -1,0 +1,110 @@
+.mesa_aberta {
+    width: 180px;
+    height: 70px;
+    background-color: #b0f39e;
+    padding: 25px 5px 5px 5px;
+    text-align: center;
+}
+
+.mesa_fechada {
+    width: 180px;
+    height: 70px;
+    background-color: #fcac00;
+    padding: 25px 5px 5px 5px;
+    text-align: center;
+    color: white;
+}
+
+.mesa {
+    width: 180px;
+    height: 70px;
+    background-color: #8a8be7;
+    padding: 25px 5px 5px 5px;
+    text-align: center;
+}
+
+.mesa:hover {
+    color: black;
+    border: 1px inset black;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+}
+
+.mesa_aberta:hover {
+    color: black;
+    border: 1px inset black;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+}
+
+.mesa_fechada:hover {
+    color: black;
+    border: 1px inset black;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+}
+
+.controle_qnt_produto_mesa {
+    width: 60px;
+    height: 50px !important;
+    border-radius: 15px !important;
+}
+
+.form-control {
+    height: 33px;
+}
+
+#total_modal {
+    background: none !important;
+    border: none !important;
+    margin: 18px 12px 0 -18px;
+    width: 151px;
+    font-size: 25px;
+}
+
+.total_confirma_tabela {
+    background: none;
+    border: none;
+    width: 118px;
+    margin-left: -60px;
+}
+
+.botao_fechar_mesa {
+    margin: 0 auto;
+    margin-top: 70px;
+    width: 230px;
+    height: 80px;
+    background: chocolate;
+    border-radius: 15px !important;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 355px) {
+    .mesa_aberta {
+        width: 150px;
+        height: 70px;
+        background-color: #b0f39e;
+        padding: 25px 5px 5px 5px;
+        text-align: center;
+    }
+    .mesa_fechada {
+        width: 150px;
+        height: 70px;
+        background-color: #fcac00;
+        padding: 25px 5px 5px 5px;
+        text-align: center;
+        color: white;
+    }
+    .mesa {
+        width: 150px;
+        height: 70px;
+        background-color: #8a8be7;
+        padding: 25px 5px 5px 5px;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-device-width: 356px) and (max-device-width: 400px) {}
+
+@media only screen and (min-device-width: 401px) and (max-device-width: 530px) {}
+
+@media only screen and (min-device-width: 700px) and (max-device-width: 800px) {}

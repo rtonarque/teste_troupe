@@ -1,0 +1,1857 @@
+body {
+    font-family: 'Acme', sans-serif;
+    color: #333;
+    line-height: 1.6;
+    /* background: rgb(255, 253, 158); */
+    background: #F9F9F9;
+    padding-right: 0px !important;
+}
+
+.ui-menu-item-wrapper,
+ul#ui-id-1.ui-menu.ui-widget.ui-widget-content.ui-autocomplete.ui-front,
+ul#ui-id-2.ui-menu.ui-widget.ui-widget-content.ui-autocomplete.ui-front {
+    background: white;
+    color: black;
+    max-width: 250px;
+    text-decoration: none;
+    z-index: 11;
+}
+
+.quadrado-vermelho {
+    width: 25px;
+    height: 25px;
+    background: rgba(212, 10, 10, 0.979);
+    margin-bottom: 5px;
+    display: inline-block;
+}
+
+.btn-vermelho {
+    background-color: rgba(212, 10, 10, 0.979);
+    border-color: rgba(212, 10, 10, 0.979);
+}
+
+.btn-vermelho:focus {
+    background-color: rgba(212, 10, 10, 0.979);
+    border-color: rgba(212, 10, 10, 0.979);
+}
+
+.quadrado-verde {
+    width: 25px;
+    height: 25px;
+    background: rgb(98, 228, 98);
+    margin-bottom: 5px;
+    display: flex;
+    margin-right: 52px;
+}
+
+.cad_produto_h2 {
+    margin: -8px 0 -35px 0;
+    font-size: 65px;
+    font-family: 'Source Code Pro', monospace;
+    text-align: center;
+    color: black;
+}
+
+a {
+    position: none !important;
+    text-decoration: none;
+    border: none;
+}
+
+.entrada_saida {
+    background: none;
+    border-radius: 20px !important;
+    border: 3px solid red;
+    margin-bottom: 5px;
+}
+
+.delete-row {
+    border-radius: 15px !important;
+    background: none !important;
+    border: 2px solid red;
+    color: red;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+/* a:hover {
+    color: #E63333;
+    border: 1px inset #E63333;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+} */
+
+.pt-100 {
+    padding-top: 100px;
+}
+
+.pb-100 {
+    padding-top: 100px;
+}
+
+.mb-60 {
+    margin-bottom: 60px;
+}
+
+.section-title p {
+    font-size: 24px;
+    font-family: Oleo Script;
+    margin-bottom: 0px;
+    margin-top: 50px;
+}
+
+.single_menu_list img {
+    max-width: 100%;
+    display: grid;
+    left: 0px;
+    top: 0;
+    border: 1px solid #ddd;
+    padding: 3px;
+    transition: .4s;
+}
+
+.single_menu_list h4 {
+    font-size: 27px;
+    border-bottom: 1px dashed #333;
+    padding-bottom: 8px;
+    margin-bottom: 3px;
+    color: white;
+    margin-top: -31px;
+}
+
+.single_menu_list h4 span {
+    float: right;
+    font-weight: bold;
+    color: white;
+    font-style: italic;
+}
+
+p {
+    font-weight: 300;
+    font-size: 25px;
+    font-family: 'Amatic SC', cursive;
+    color: white;
+}
+
+.input-group {
+    height: 33px;
+}
+
+.modal-mesa {
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 2%;
+    height: auto;
+    background: white;
+    padding: 0 50px 50px 50px;
+}
+
+.modal-content_2 {
+    width: 900px;
+    margin: 0 auto;
+    margin-top: 3%;
+    height: 575px;
+    background: white;
+    padding: 0 50px 50px 50px;
+}
+
+.modal-content_3 {
+    width: 900px;
+    margin: 0 auto;
+    margin-top: 8%;
+    height: 500px;
+    background: rgb(236, 186, 112);
+    padding: 0 50px 50px 50px;
+}
+
+.modal-content_4 {
+    width: 840px;
+    margin: 0 auto;
+    margin-top: 8%;
+    height: 285px;
+    background: white;
+    padding: 0 50px 50px 50px;
+}
+
+.modal-content_5 {
+    width: 900px;
+    margin: 0 auto;
+    margin-top: 3%;
+    height: 685px;
+    background: grey;
+    padding: 0 50px 50px 50px;
+}
+
+.modal-content_6 {
+    width: 900px;
+    margin: 0 auto;
+    margin-top: 3%;
+    height: 155px;
+    background: grey;
+    padding: 0 50px 50px 50px;
+}
+
+.modal-content_7 {
+    width: 840px;
+    margin: 0 auto;
+    margin-top: 8%;
+    height: 285px;
+    background: rgb(243, 186, 31);
+    padding: 0 50px 50px 50px;
+}
+
+.modal-content_2_entrega {
+    width: 396px;
+    margin: 0 0 0 33%;
+    margin-top: 8%;
+    background: cadetblue;
+    padding: 0 50px 50px 50px;
+    height: 350px;
+}
+
+.modal-content {
+    background: #F9F9F9;
+}
+
+.modal-header {
+    display: block;
+    border-bottom: none;
+    margin: -17px 0 -14px 0;
+    padding: 15px 0 2px 0;
+}
+
+.modal-title {
+    font-size: 46px;
+    font-family: 'Acme', sans-serif;
+    text-align: center;
+    margin-top: -10px;
+    letter-spacing: 3px;
+    color: black;
+}
+
+a:hover {
+    color: #FC8E00 !important;
+}
+
+li.nav-item {
+    color: #FC8E00;
+    text-transform: uppercase;
+}
+
+a.nav-link.active {
+    font-weight: bold;
+    color: #FC8E00 !important;
+    text-transform: uppercase;
+    border-color: #FC8E00 #FC8E00 #fff !important;
+}
+
+.nav-tabs {
+    border-bottom: 1px solid #FC8E00 !important;
+    background: #3d3d3c;
+    height: 100px;
+    /* margin: 0 -5px 0 -5px !important; */
+}
+
+.nav-tabs-2 {
+    margin-top: -26px;
+}
+
+li.nav-item-2 {
+    color: white;
+    text-transform: uppercase;
+}
+
+a.nav-link-2.active {
+    font-weight: bold;
+    color: #FC8E00 !important;
+    text-transform: uppercase;
+    border-color: #FC8E00 #FC8E00 #fff !important;
+}
+
+.nav-tabs .nav-link.active {
+    background: #f9f9f9;
+    height: 100px;
+}
+
+.nav-tabs .nav-link {
+    border: 1px solid transparent;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+    height: 100px;
+    /* margin: 0 -5px 0 -5px !important; */
+}
+
+.nav-link:hover {
+    border-color: #FC8E00 !important;
+}
+
+a {
+    color: white;
+}
+
+tbody th {
+    font-family: 'Comfortaa', cursive;
+    font-size: 15px;
+}
+
+.modal-footer {
+    border-top: 3px solid #e27e0c;
+    margin-top: 7px;
+}
+
+div.modal-body {
+    background: white;
+}
+
+.copyright_index {
+    background: black;
+    color: white;
+    font-size: 17px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 5px;
+    width: 100%;
+    background: #E63333;
+    padding: 10px 0;
+    text-align: center;
+    font-weight: bold;
+    position: absolute;
+    bottom: -137%;
+}
+
+.modal_produtos_com_adicional {
+    border: none !important;
+}
+
+.form-control {
+    font-size: 18px;
+    text-align: center !important;
+    border-radius: 15px !important;
+    margin: 0 10px 0 10px;
+    border: 1px solid black !important;
+    height: 35px !important;
+    z-index: 10;
+}
+
+.btn-group {
+    position: relative;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    vertical-align: middle;
+    width: 400px;
+    margin-left: 47%;
+    margin-top: -4%;
+    height: 50px;
+    box-shadow: none;
+    border: none;
+}
+
+.btn-secondary {
+    color: #fff;
+    background-color: #e27e0c;
+    border-color: #e27e0c;
+    box-shadow: none;
+    padding: 5px 10px 5px 10px !important;
+    font-size: 20px !important;
+}
+
+.btn-secondary:hover {
+    padding: 4px 0 0 0;
+    font-size: 25px;
+    color: #fff;
+    background-color: #e27e0c;
+    border-color: #e27e0c;
+    box-shadow: none;
+}
+
+.btn-secondary:not(:disabled):not(.disabled).active:hover {
+    color: #fff;
+    background-color: #f03a3a;
+    border-color: #f03a3a;
+    padding: 4px 0 0 0;
+    font-size: 25px;
+    box-shadow: none;
+}
+
+.btn-secondary:focus {
+    color: #fff;
+    background-color: #f03a3a;
+    border-color: #f03a3a;
+    box-shadow: none;
+}
+
+.btn-secondary:not(:disabled):not(.disabled).active:focus,
+.btn-secondary:not(:disabled):not(.disabled):active:focus,
+.show>.btn-secondary.dropdown-toggle:focus {
+    color: #fff;
+    background-color: #f03a3a;
+    border-color: #f03a3a;
+    box-shadow: none;
+}
+
+.btn-secondary:not(:disabled):not(.disabled):active,
+.show>.btn-secondary.dropdown-toggle {
+    color: #fff;
+    background-color: #f03a3a;
+    border-color: none;
+    box-shadow: none;
+}
+
+.btn-secondary:not(:disabled):not(.disabled).active {
+    color: #fff;
+    background-color: #f03a3a;
+    border-color: #f03a3a;
+    padding: 4px 0 0 0;
+    font-size: 25px;
+    box-shadow: none;
+}
+
+.custom-select {
+    height: 33px;
+    text-align: center !important;
+}
+
+.lista {
+    background: #E22D20;
+    padding: 11px 0px 0px 19px;
+    min-width: 100%;
+    min-height: 80px;
+    margin-top: 15px;
+    border-radius: 15px !important;
+    text-align: center;
+}
+
+.pagamento {
+    width: 300px !important;
+}
+
+.input_produto_tabela {
+    background: none;
+    border: none;
+    color: black;
+    text-transform: uppercase;
+    text-decoration: bold;
+}
+
+.tons_vermelho {
+    background: rgb(253, 188, 183);
+}
+
+.radio_entrada_saida_valores {
+    width: 150px;
+    height: 60px;
+    text-align: center;
+    padding-top: 15px;
+    background: #f1b26a;
+    border-radius: 30px;
+}
+
+.label_frente_caixa_retirada {
+    color: black;
+    font-size: 25px;
+}
+
+.radio_frente_caixa {
+    width: 650px;
+    height: 60px;
+    text-align: center;
+    padding-top: 6px;
+    background: #d43f03;
+    border-radius: 5px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: system-ui;
+    letter-spacing: 13px;
+}
+
+.radio_frente_caixa_2 {
+    width: 270px;
+    height: 60px;
+    text-align: center;
+    padding-top: 6px;
+    background: #D43F38;
+    border-radius: 5px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: system-ui;
+}
+
+.btn-outline-danger {
+    background-color: #fcac00;
+    color: white;
+    border-color: #fcac00;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.table-danger {
+    background-color: #fcac00;
+    color: white;
+    border-color: #fcac00;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+div#divCarregando.progresso p {
+    color: black !important;
+    margin-top: 22%;
+}
+
+.progresso {
+    cursor: wait;
+    display: none;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #c0bfbf;
+    border: none;
+    height: 100%;
+    width: 100%;
+}
+
+.btn-danger {
+    background-color: #e27e0c;
+    border-color: #e27e0c;
+}
+
+.logo_perdir_ja {
+    width: 10%;
+    margin: -14px -100px 0 -16px;
+}
+
+#calcular_taxa_entrega_frente_caixa {
+    margin-right: 20px;
+    min-width: 300px;
+}
+
+#exibir_motoboy_frente_caixa {
+    min-width: 300px;
+}
+
+#quantidade_produto_frente_caixa_responsivo {
+    margin-left: 110px;
+}
+
+#total_com_taxa_entrega_frente_caixa {
+    color: black;
+    text-align: center;
+    margin: 10px 0px;
+}
+
+#p_forma_pagamento_frente_caixa {
+    color: black;
+    text-align: center;
+    margin: 40px 0px 15px 0px;
+}
+
+.btn-limpar {
+    background-color: aqua;
+}
+
+.btn-salvar {
+    background-color: rgb(113, 47, 175);
+}
+
+.btn-novo {
+    background-color: chocolate;
+}
+
+.btn-adicionar {
+    background-color: rgb(35, 155, 35);
+}
+
+.btn-excluir {
+    background-color: rgb(212, 38, 38);
+}
+
+#botao_fechar_mesa_responsivo {
+    margin-left: 50px;
+}
+
+#desconto_acrescimo_mesas {
+    width: 180px;
+    transform: translate(15px, 5px);
+}
+
+img#imagem_entrada_saida {
+    margin-left: 50%;
+}
+
+#table_entrada_saida_valores {
+    margin-top: -25px;
+}
+
+.table-overflow {
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+.tabela_entrada_saida_frente_caixa {
+    background-color: #ffa66b;
+}
+
+.tabela_entrada_saida_mesas {
+    background-color: #a1f3ec;
+}
+
+.tabela_entrada_saida_valores {
+    background-color: #c5a0da;
+}
+
+.tabela_entrada_caixa_diario_saida {
+    background-color: #e76960;
+}
+
+.tabela_entrada_caixa_diario_entrada {
+    background-color: #7be95a;
+}
+
+.ajustar_height {
+    height: 25px !important;
+}
+
+.tabela_contas_a_pagar_aberto {
+    background-color: #e27e0c;
+}
+
+.tabela_contas_a_pagar_paga {
+    background-color: #8acf1a;
+}
+
+.tabela_contas_a_pagar_excluido {
+    background-color: #cf1a1a;
+}
+
+.tabela_entrada_saida_mercadoria {
+    background-color: #b8c7f8;
+}
+
+.bg-danger {
+    background-color: #e63718 !important;
+}
+
+#thead_table_entrada_saida_valores {
+    font-size: 20px;
+    text-align: center;
+}
+
+#tbody_table_entrada_saida_valores {
+    font-size: 16px;
+    text-align: center;
+}
+
+#div_formuladorio_entrada_saida_valores {
+    background-color: #ffff80;
+    margin-left: 50px;
+    margin-right: -100px;
+    height: 450px;
+}
+
+#div_formuladorio_contas_a_pagar {
+    background-color: #ffff80;
+    margin-left: 50px;
+    margin-right: -100px;
+    height: 600px;
+}
+
+.td_tabela_contas_a_pagar {
+    max-width: 90px !important;
+    font-size: 13px;
+    text-align: center;
+    color: white;
+}
+
+#botao_finalizar_entrada_saida_valores {
+    margin-top: 15px;
+    width: 360px;
+}
+
+#rest_rua {
+    min-width: 220px;
+    margin-right: 15px;
+    margin-left: 27px;
+}
+
+.taxa_entrega_config_responsive {
+    transform: translate(34em, -28em);
+    margin-bottom: -15em;
+    width: 72%;
+}
+
+#rest_taxa_entrega {
+    margin-left: 5px;
+    border-radius: 15px 15px 15px 15px !important;
+    text-align: center;
+    width: 80%;
+}
+
+#salvar_taxa_entrega {
+    width: 280px;
+    margin-left: 15px;
+}
+
+#div_entrada_saida_mercadoria_center {
+    text-align: center;
+}
+
+#label_entrada_saida_mercadoria_forma_pagamento {
+    margin-left: 165px;
+}
+
+.opcionais_produto_entrada_saida_mercadorias {
+    margin-left: 130px;
+}
+
+#total_entrada_saida_mercadoria {
+    margin: 15px 0 0 185%;
+    border-radius: 15px !important;
+    border: none;
+    background: none;
+    font-size: 25px;
+}
+
+
+/* --------------------------------- RELATORIOS INICIO --------------------------- */
+
+.relatorios_responsive {
+    height: 170px !important;
+    background-color: rgb(241, 148, 41);
+    border-radius: 61px !important;
+    color: black;
+    font-size: 28px !important;
+}
+
+.relatorios_responsive:focus {
+    height: 170px !important;
+    background-color: rgb(241, 48, 41);
+    border-radius: 61px !important;
+    color: black;
+}
+
+div.col-md-6.mb-3.centralizar_responsivo label {
+    margin-left: 0px !important;
+}
+
+
+/* [ON BIG SCREENS] */
+
+
+/* Wrapper */
+
+#hamnav {
+    width: 100%;
+    background: #000;
+    /* Optional */
+    position: sticky;
+    top: 0;
+    z-index: 15;
+}
+
+
+/* Hide Hamburger */
+
+#hamnav label,
+#hamburger {
+    display: none;
+}
+
+
+/* Horizontal Menu Items */
+
+#hamitems {
+    display: flex;
+}
+
+#hamitems a {
+    width: 100%;
+    /* 100% / 5 tabs = 20% */
+    /* padding: 10px; */
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 12px;
+}
+
+#hamitems a:hover {
+    background: white;
+}
+
+
+/* [ON SMALL SCREENS] */
+
+@media screen and (max-width: 1024px) {
+    ul#nav_header.nav.nav-tabs.justify-content-left.col-md-12 li.nav-item {
+        width: 100% !important;
+    }
+    ul#nav_header.nav.nav-tabs.justify-content-left.col-md-12 li.nav-item a.nav-link div img {
+        width: 0% !important;
+    }
+    /* Show Hamburger Icon */
+    #hamnav label {
+        display: inline-block;
+        color: white;
+        background: #a02620;
+        font-style: normal;
+        font-size: 1.2em;
+        padding: 10px;
+        margin-bottom: 0px;
+    }
+    /* Break down menu items into vertical */
+    #hamitems a,
+    li,
+    .nav-tabs {
+        box-sizing: border-box;
+        display: block !important;
+        width: 100%;
+        border-top: 1px solid #333;
+        background: #a02620;
+        z-index: auto;
+    }
+    /* Toggle Show/Hide Menu */
+    #hamitems {
+        display: none;
+    }
+    #hamnav input:checked~#hamitems {
+        display: block;
+    }
+}
+
+.p_frente_caixa_produtos {
+    color: black;
+    text-align: center;
+    margin-top: 25px;
+    font-size: 26px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    font-family: auto;
+}
+
+.p_frente_caixa_total {
+    color: black;
+    text-align: center;
+    margin: 35px 0px;
+    font-size: 26px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    font-family: auto;
+}
+
+.p_frente_caixa_forma_pagamento {
+    color: black;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    font-size: 26px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    font-family: auto;
+}
+
+
+/* [DOES NOT MATTER] */
+
+
+/* ------------------------------------- RELATORIOS FIM ------------------------------- */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 355px) {
+    .table td,
+    .table th {
+        padding: 0 0 0 0 !important;
+        font-size: 10px !important;
+    }
+    #pesquisa_frente_caixa_entrega {
+        margin-top: 15% !important;
+    }
+    .porcentagem_frente_caixa_retirada {
+        margin: 6% 0 0 -0% !important;
+        font-size: 13px !important;
+        max-width: 98%;
+    }
+    .botao_pesquisar_retirada {
+        margin: 10% 5px 0px -70% !important;
+        padding: 0 0 0 0 !important;
+        width: 60%;
+    }
+    #pesquisa_frente_caixa_retirada {
+        margin-top: 15% !important;
+    }
+    .controlar_grupo_frente_caixa_retirada {
+        padding: 0 0 0 0 !important;
+    }
+    #botoes_frente_caixa_responsivo {
+        margin-top: 50px;
+        width: 275px;
+    }
+    #fazer_pedido_frente_caixa_responsivo {
+        margin-top: 195px !important;
+        margin-bottom: 40px;
+        margin-left: 10px;
+        width: 250px;
+    }
+    /* .botao_calcular_porcentagem_retirada {
+        width: 50%;
+    } */
+    #label_frente_caixa_retirada_total_c_entrega,
+    #label_frente_caixa_entrada {
+        margin-top: 35px;
+    }
+    #sub_total_frente_caixa_retirada {
+        font-size: 40px !important;
+    }
+    #select_tipo_pagamento_cliente_frente_caixa_retirada {
+        margin: 30px -90px 15px 0px;
+    }
+    .p_frente_caixa_forma_pagamento {
+        width: 155%;
+    }
+    .p_frente_caixa_total {
+        width: 155%;
+    }
+    .p_frente_caixa_produtos {
+        width: 155%;
+    }
+    input#desconto_acrescimo_frente_caixa_retirada.form-control {
+        margin: 0 0 0 -17pc;
+    }
+    div.col-md-4.mb-3.mt-3.centralizar_responsivo {
+        transform: none !important;
+    }
+    img#imagem_entrada_saida {
+        margin-left: 30%;
+    }
+    li.nav-item {
+        color: #FC8E00;
+        text-transform: uppercase;
+        width: 100px;
+    }
+    a.nav-link.active {
+        font-weight: bold;
+        color: #FC8E00 !important;
+        text-transform: uppercase;
+        border-color: #FC8E00 #FC8E00 #fff !important;
+    }
+    .nav-tabs {
+        border-bottom: 1px solid #FC8E00 !important;
+        background: #3d3d3c;
+        height: 80px;
+        font-size: 15px !important;
+    }
+    .nav-tabs-2 {
+        margin-top: -26px;
+    }
+    li.nav-item-2 {
+        color: white;
+        text-transform: uppercase;
+    }
+    a.nav-link-2.active {
+        font-weight: bold;
+        color: #FC8E00 !important;
+        text-transform: uppercase;
+        border-color: #FC8E00 #FC8E00 #fff !important;
+    }
+    .nav-tabs .nav-link.active {
+        background: #f9f9f9;
+        height: 80px;
+    }
+    .nav-tabs .nav-link {
+        border: 1px solid transparent;
+        border-top-left-radius: .25rem;
+        border-top-right-radius: .25rem;
+        height: 80px;
+        font-size: 13px;
+    }
+    .nav-link:hover {
+        border-color: #FC8E00 !important;
+    }
+    .aba_entrada_saida {
+        margin: 0 0 0 -10px !important;
+        width: 100px !important;
+    }
+    .logo_perdir_ja {
+        width: 45%;
+        margin-left: 7%;
+        transform: translate(-8px, -7px);
+    }
+    /* -------------------------------- MESAS --------------------------------------- */
+    .input_produto_tabela {
+        width: 100px;
+    }
+    table#itens_cliente.table {
+        margin: 0 0 0 -37px !important;
+        font-size: 10px;
+    }
+    .entrada_saida {
+        margin: 9px 0 0 8px !important;
+    }
+    .adicionar_responsividade {
+        margin-left: -14px;
+    }
+    .pagamento_mesa_responsivo {
+        margin: 0 0 15px 0;
+    }
+    #desconto_acrescimo_mesas {
+        width: 180px;
+        transform: translate(0px, 0px) !important;
+        margin: 15px 0 10px 20px;
+    }
+    #botao_fechar_mesa_responsivo {
+        width: 250px !important;
+        margin: 20px 0 0px 10px;
+    }
+    #botao_desconto_mesa {
+        margin-left: 25px;
+    }
+    .responsivo_mesas {
+        width: 300px !important;
+        transform: translate(12px, 0px);
+    }
+    #primario {
+        margin: 0 0 0 0 !important;
+        padding: 0 0 0 0 !important;
+    }
+    #total_modal {
+        margin: 33px 0 11px 18px !important;
+    }
+    #footer_menu {
+        margin: 18px 0 0 0;
+    }
+    #obs_produto {
+        margin-top: 10px;
+    }
+    /* #opcionais_mesa_responsivo {
+        margin-left: -45px !important;
+    } */
+    #botao_adicionar_produto_mesa_responsivo {
+        width: 250px !important;
+        margin-left: -15px;
+    }
+    #botao_fechar_mesa_responsivo {
+        width: 250px !important;
+    }
+    #div_garcom_mesa_responsivo {
+        margin: 0 0 0 -25px;
+    }
+    h1.pagina_pedidos_pendentes {
+        margin-left: 0% !important;
+    }
+    /* ------------------------------ ENTRADA SAIDA DE VALORES INICIO ---------------------------- */
+    #lado_direito_entrada_saida_valores {
+        margin-left: 2px;
+    }
+    .radio_entrada_saida_valores {
+        width: 120px;
+        height: 60px;
+        text-align: center;
+        padding-top: 15px;
+        background: #f1b26a;
+        border-radius: 30px;
+    }
+    #div_formuladorio_entrada_saida_valores {
+        margin: 40px 0px 0 -17px !important;
+        width: 320px;
+    }
+    #botao_finalizar_entrada_saida_valores {
+        width: 300px;
+    }
+    /* ------------------------------ ENTRADA SAIDA DE VALORS FIM ----------------------- */
+    /* -------------------------------------- CONFIGURACOES REST INICIO ---------------------------------     */
+    #rest_taxa_entrega {
+        margin-left: -113px;
+        border-radius: 15px 15px 15px 15px !important;
+        text-align: center;
+        width: 80%;
+        transform: translate(-80px, 55px);
+    }
+    .card_taxa_entrega_responsive {
+        width: 300px !important;
+        min-width: 300px !important;
+        max-width: 300px !important;
+    }
+    .funcionamento_rest_responsive {
+        margin: 55px 0px 0px 0px;
+    }
+    .taxa_entrega_config_responsive {
+        transform: translate(0px, 0px) !important;
+    }
+    .h4-hora-funcionamento {
+        font-size: 25px !important;
+    }
+    .h4-cadastro {
+        font-size: 25px !important;
+    }
+    .corrigir_responsive {
+        margin: 27px 0 0 -29px;
+    }
+    #rest_rua {
+        min-width: 180px;
+    }
+    #salvar_taxa_entrega {
+        transform: translate(-56px, 55px);
+    }
+    /* ---------------------------- ENTRADA SAIDA DE MERCADORIAS INICIO ------------------------- */
+    #label_entrada_saida_mercadoria_novo_custo {
+        margin-left: -140px;
+    }
+    #div_entrada_saida_mercadoria_center {
+        margin-left: -70px !important;
+    }
+    #label_entrada_saida_mercadoria_forma_pagamento {
+        margin: 50px 0 0 20px;
+        font-size: 25px;
+        text-align: center;
+    }
+    .opcionais_produto_entrada_saida_mercadorias {
+        margin-left: 0px !important;
+        max-width: 300px;
+    }
+    #botao_adicionar_entrada_saida_mercadoria button {
+        margin: 27px 0 0 0px !important;
+    }
+    #total_entrada_saida_mercadoria {
+        margin: 0px 0px 0px 0px !important;
+    }
+    /* -------------------------- ENTRADA SAIDA MERCADORIAS FIM --------------------------- */
+    /* --------------------------- CONFIGURACOES REST FIM --------------------------------- */
+    /* ----------------------------------------- FRENTE CAIXA ----------------------------------------------- */
+    .radio_frente_caixa {
+        margin: 5px 0 0 5px;
+        width: 100%;
+    }
+    #lado_direito_frente_caixa {
+        margin: 0 0 0 2px;
+    }
+    #calcular_taxa_entrega_frente_caixa {
+        margin-right: 20px;
+        min-width: 275px;
+    }
+    #exibir_motoboy_frente_caixa {
+        min-width: 275px;
+    }
+    .centralizar_responsivo {
+        margin-left: 25px;
+    }
+    .centralizar_responsivo input {
+        min-width: 200px !important;
+    }
+    #select_cliente_produto {
+        min-width: 200px;
+    }
+    #quantidade_produto_frente_caixa_responsivo {
+        margin: 0 0 0 0 !important;
+    }
+    #botao_adicionar_frente_caixa_responsivo {
+        margin-top: 15px;
+        max-width: 250px;
+        text-align: center;
+    }
+    #remover_quantidade_produto_frente_caixa {
+        width: 50px !important;
+    }
+    #adicionar_quantidade_produto_frente_caixa {
+        width: 50px !important;
+    }
+    #total_com_taxa_entrega_frente_caixa {
+        margin: 0px 0px 15px -10px;
+        width: 300px;
+    }
+    #lado_direito_frente_caixa {
+        min-width: 300px;
+    }
+    #botao_todos_frente_caixa {
+        margin-top: 10px !important;
+    }
+    #p_forma_pagamento_frente_caixa {
+        width: 300px !important;
+    }
+    #select_tipo_pagamento_cliente_frente_caixa {
+        margin-right: -100px;
+    }
+    #botao_desconto_frente_caixa {
+        margin: 0 0 0 65px !important;
+    }
+    #botao_acrescimo_frente_caixa {
+        margin: 0 0 0 0 !important;
+    }
+    #desconto_acrescimo_frente_caixa {
+        margin: 11px 0 0px -240px;
+        transform: translate(0px, 0px) !important;
+    }
+}
+
+@media only screen and (min-device-width: 356px) and (max-device-width: 400px) {
+    .table td,
+    .table th {
+        padding: 0 0 0 0 !important;
+        font-size: 10px !important;
+    }
+    #itens_cliente_frente_caixa_retirada,
+    #itens_cliente_frente_caixa {
+        font-size: 9px;
+        margin-left: -25px;
+    }
+    .botao_adc_qtd {
+        margin-left: -172% !important;
+    }
+    .botao_rmv_qtd {
+        margin-left: -144% !important;
+    }
+    .modal_produtos_com_adicional {
+        max-width: 50% !important;
+    }
+    #pesquisa_frente_caixa_entrega {
+        margin-top: 15% !important;
+    }
+    .porcentagem_frente_caixa_retirada {
+        margin: 6% 0 0 -0% !important;
+        font-size: 13px !important;
+        max-width: 98%;
+    }
+    .botao_pesquisar_retirada {
+        margin: 10% 5px 0px -70% !important;
+        padding: 0 0 0 0 !important;
+        width: 60%;
+    }
+    #pesquisa_frente_caixa_retirada {
+        margin-top: 15% !important;
+    }
+    .controlar_grupo_frente_caixa_retirada {
+        padding: 0 0 0 0 !important;
+    }
+    #botoes_frente_caixa_responsivo {
+        margin-top: 50px;
+        width: 275px;
+    }
+    #fazer_pedido_frente_caixa_responsivo {
+        margin-top: 195px !important;
+        margin-bottom: 40px;
+        margin-left: 10px;
+        width: 250px;
+    }
+    #label_frente_caixa_retirada_total_c_entrega,
+    #label_frente_caixa_entrada {
+        margin-top: 35px;
+    }
+    #sub_total_frente_caixa_retirada {
+        font-size: 40px !important;
+    }
+    #select_tipo_pagamento_cliente_frente_caixa_retirada {
+        margin: 30px -90px 15px 0px;
+    }
+    .p_frente_caixa_forma_pagamento {
+        width: 155%;
+    }
+    .p_frente_caixa_total {
+        width: 155%;
+    }
+    .p_frente_caixa_produtos {
+        width: 155%;
+    }
+    input#desconto_acrescimo_frente_caixa_retirada.form-control {
+        margin: 0 0 0 -17pc;
+    }
+    div.col-md-4.mb-3.mt-3.centralizar_responsivo {
+        transform: none !important;
+    }
+    .radio_frente_caixa {
+        margin: 5px 0 0 5px;
+        width: 100%;
+    }
+    img#imagem_entrada_saida {
+        margin-left: 30%;
+    }
+    li.nav-item {
+        color: #FC8E00;
+        text-transform: uppercase;
+        width: 100px;
+    }
+    a.nav-link.active {
+        font-weight: bold;
+        color: #FC8E00 !important;
+        text-transform: uppercase;
+        border-color: #FC8E00 #FC8E00 #fff !important;
+    }
+    .nav-tabs {
+        border-bottom: 1px solid #FC8E00 !important;
+        background: #3d3d3c;
+        height: 80px;
+        font-size: 15px !important;
+    }
+    .nav-tabs-2 {
+        margin-top: -26px;
+    }
+    li.nav-item-2 {
+        color: white;
+        text-transform: uppercase;
+    }
+    a.nav-link-2.active {
+        font-weight: bold;
+        color: #FC8E00 !important;
+        text-transform: uppercase;
+        border-color: #FC8E00 #FC8E00 #fff !important;
+    }
+    .nav-tabs .nav-link.active {
+        background: #f9f9f9;
+        height: 80px;
+    }
+    .nav-tabs .nav-link {
+        border: 1px solid transparent;
+        border-top-left-radius: .25rem;
+        border-top-right-radius: .25rem;
+        height: 80px;
+        font-size: 13px;
+    }
+    .nav-link:hover {
+        border-color: #FC8E00 !important;
+    }
+    .aba_entrada_saida {
+        margin: 0 0 0 -10px !important;
+        width: 100px !important;
+    }
+    .logo_perdir_ja {
+        width: 45%;
+        margin-left: 7%;
+        transform: translate(-8px, -7px);
+    }
+    /* ------------------------------ ENTRADA SAIDA DE VALORES INICIO ---------------------------- */
+    #lado_direito_entrada_saida_valores {
+        margin-left: 2px;
+    }
+    .radio_entrada_saida_valores {
+        width: 120px;
+        height: 60px;
+        text-align: center;
+        padding-top: 15px;
+        background: #f1b26a;
+        border-radius: 30px;
+    }
+    #div_formuladorio_entrada_saida_valores {
+        margin: 40px 0px 0 -17px !important;
+        width: 320px;
+    }
+    #botao_finalizar_entrada_saida_valores {
+        width: 300px;
+    }
+    /* ------------------------------ ENTRADA SAIDA DE VALORS FIM ----------------------- */
+    /* -------------------------------------- CONFIGURACOES REST INICIO ---------------------------------     */
+    #rest_taxa_entrega {
+        margin-left: -113px;
+        border-radius: 15px 15px 15px 15px !important;
+        text-align: center;
+        width: 80%;
+        transform: translate(-80px, 55px);
+    }
+    .card_taxa_entrega_responsive {
+        width: 300px !important;
+        min-width: 300px !important;
+        max-width: 300px !important;
+    }
+    .funcionamento_rest_responsive {
+        margin: 55px 0px 0px 0px;
+    }
+    .taxa_entrega_config_responsive {
+        transform: translate(0px, 0px) !important;
+    }
+    .h4-hora-funcionamento {
+        font-size: 25px !important;
+    }
+    .h4-cadastro {
+        font-size: 25px !important;
+    }
+    .corrigir_responsive {
+        margin: 27px 0 0 -29px;
+    }
+    #rest_rua {
+        min-width: 180px;
+    }
+    #salvar_taxa_entrega {
+        transform: translate(-56px, 55px);
+    }
+    /* ---------------------------- ENTRADA SAIDA DE MERCADORIAS INICIO ------------------------- */
+    #label_entrada_saida_mercadoria_novo_custo {
+        margin-left: -140px;
+    }
+    #div_entrada_saida_mercadoria_center {
+        margin-left: -70px !important;
+    }
+    #label_entrada_saida_mercadoria_forma_pagamento {
+        margin: 50px 0 0 20px;
+        font-size: 25px;
+        text-align: center;
+    }
+    .opcionais_produto_entrada_saida_mercadorias {
+        margin-left: 0px !important;
+        max-width: 300px;
+    }
+    #botao_adicionar_entrada_saida_mercadoria button {
+        margin: 27px 0 0 0px !important;
+    }
+    #total_entrada_saida_mercadoria {
+        margin: 0px 0px 0px 0px !important;
+    }
+    /* -------------------------- ENTRADA SAIDA MERCADORIAS FIM --------------------------- */
+    /* --------------------------- CONFIGURACOES REST FIM --------------------------------- */
+    /* -------------------------------- MESAS --------------------------------------- */
+    .input_produto_tabela {
+        width: 130px;
+    }
+    .entrada_saida {
+        margin: 9px 0 0 8px !important;
+    }
+    .adicionar_responsividade {
+        margin-left: -9px;
+    }
+    table#itens_cliente.table {
+        margin: 0 0 0 -37px !important;
+        font-size: 10px;
+    }
+    .pagamento_mesa_responsivo {
+        margin: 0 0 15px 0;
+    }
+    #desconto_acrescimo_mesas {
+        width: 180px;
+        transform: translate(0px, 0px) !important;
+        margin: 15px 0 10px 20px;
+    }
+    #botao_fechar_mesa_responsivo {
+        width: 250px !important;
+        margin: 20px 0 0px 10px;
+    }
+    #botao_desconto_mesa {
+        margin-left: 25px;
+    }
+    #total_modal {
+        margin: 33px 0 11px 18px !important;
+    }
+    #footer_menu {
+        margin: 18px 0 0 0;
+    }
+    #obs_produto {
+        margin-top: 10px;
+    }
+    #botao_adicionar_produto_mesa_responsivo {
+        width: 250px !important;
+        margin-left: -15px;
+    }
+    #botao_fechar_mesa_responsivo {
+        width: 250px !important;
+    }
+    #div_garcom_mesa_responsivo {
+        margin: 0 0 0 -25px;
+    }
+    h1.pagina_pedidos_pendentes {
+        margin-left: 0% !important;
+    }
+    /* ----------------------------------------- FRENTE CAIXA ----------------------------------------------- */
+    #lado_direito_frente_caixa {
+        margin: 0 0 0 2px;
+    }
+    #calcular_taxa_entrega_frente_caixa {
+        margin-right: 20px;
+        min-width: 275px;
+    }
+    #exibir_motoboy_frente_caixa {
+        min-width: 275px;
+    }
+    .centralizar_responsivo {
+        margin-left: 25px;
+    }
+    .centralizar_responsivo input {
+        min-width: 200px !important;
+    }
+    #select_cliente_produto {
+        min-width: 200px;
+    }
+    #quantidade_produto_frente_caixa_responsivo {
+        margin: 0 0 0 0 !important;
+    }
+    #botao_adicionar_frente_caixa_responsivo {
+        margin-top: 15px;
+        max-width: 250px;
+        text-align: center;
+    }
+    #remover_quantidade_produto_frente_caixa {
+        width: 50px !important;
+    }
+    #adicionar_quantidade_produto_frente_caixa {
+        width: 50px !important;
+    }
+    #total_com_taxa_entrega_frente_caixa {
+        margin: 0px 0px 15px -10px;
+        width: 300px;
+    }
+    #lado_direito_frente_caixa {
+        min-width: 300px;
+    }
+    #botao_todos_frente_caixa {
+        margin-top: 10px !important;
+    }
+    #p_forma_pagamento_frente_caixa {
+        width: 300px !important;
+    }
+    #select_tipo_pagamento_cliente_frente_caixa {
+        margin-right: -100px;
+    }
+    #botao_desconto_frente_caixa {
+        margin: 0 0 0 65px !important;
+    }
+    #botao_acrescimo_frente_caixa {
+        margin: 0 0 0 0 !important;
+    }
+    #desconto_acrescimo_frente_caixa {
+        margin: 11px 0 0px -240px;
+        transform: translate(0px, 0px) !important;
+    }
+}
+
+@media only screen and (min-device-width: 401px) and (max-device-width: 530px) {
+    .table td,
+    .table th {
+        padding: 0 0 0 0 !important;
+        font-size: 10px !important;
+    }
+    #itens_cliente_frente_caixa_retirada,
+    #itens_cliente_frente_caixa {
+        font-size: 9px;
+        margin-left: -25px;
+    }
+    .botao_adc_qtd {
+        margin-left: -172% !important;
+    }
+    .botao_rmv_qtd {
+        margin-left: -144% !important;
+    }
+    .modal_produtos_com_adicional {
+        max-width: 50% !important;
+    }
+    #pesquisa_frente_caixa_entrega {
+        margin-top: 15% !important;
+    }
+    .porcentagem_frente_caixa_retirada {
+        margin: 6% 0 0 -0% !important;
+        font-size: 13px !important;
+        max-width: 98%;
+    }
+    .botao_pesquisar_retirada {
+        margin: 10% 5px 0px -70% !important;
+        padding: 0 0 0 0 !important;
+        width: 60%;
+    }
+    #pesquisa_frente_caixa_retirada {
+        margin-top: 15% !important;
+    }
+    .controlar_grupo_frente_caixa_retirada {
+        padding: 0 0 0 0 !important;
+    }
+    #botoes_frente_caixa_responsivo {
+        margin-top: 50px;
+        width: 275px;
+    }
+    #fazer_pedido_frente_caixa_responsivo {
+        margin-top: 195px !important;
+        margin-bottom: 40px;
+        margin-left: 10px;
+        width: 250px;
+    }
+    #label_frente_caixa_retirada_total_c_entrega,
+    #label_frente_caixa_entrada {
+        margin-top: 35px;
+    }
+    #sub_total_frente_caixa_retirada {
+        font-size: 40px !important;
+    }
+    #select_tipo_pagamento_cliente_frente_caixa_retirada {
+        margin: 30px -90px 15px 0px;
+    }
+    .p_frente_caixa_forma_pagamento {
+        width: 155%;
+    }
+    .p_frente_caixa_total {
+        width: 155%;
+    }
+    .p_frente_caixa_produtos {
+        width: 155%;
+    }
+    input#desconto_acrescimo_frente_caixa_retirada.form-control {
+        margin: 0 0 0 -17pc;
+    }
+    div.col-md-4.mb-3.mt-3.centralizar_responsivo {
+        transform: none !important;
+    }
+    .radio_frente_caixa {
+        margin: 5px 0 0 5px;
+        width: 100%;
+    }
+    img#imagem_entrada_saida {
+        margin-left: 30%;
+    }
+    li.nav-item {
+        color: #FC8E00;
+        text-transform: uppercase;
+        width: 100px;
+    }
+    a.nav-link.active {
+        font-weight: bold;
+        color: #FC8E00 !important;
+        text-transform: uppercase;
+        border-color: #FC8E00 #FC8E00 #fff !important;
+    }
+    .nav-tabs {
+        border-bottom: 1px solid #FC8E00 !important;
+        background: #3d3d3c;
+        height: 80px;
+        font-size: 15px !important;
+    }
+    .nav-tabs-2 {
+        margin-top: -26px;
+    }
+    li.nav-item-2 {
+        color: white;
+        text-transform: uppercase;
+    }
+    a.nav-link-2.active {
+        font-weight: bold;
+        color: #FC8E00 !important;
+        text-transform: uppercase;
+        border-color: #FC8E00 #FC8E00 #fff !important;
+    }
+    .nav-tabs .nav-link.active {
+        background: #f9f9f9;
+        height: 80px;
+    }
+    .nav-tabs .nav-link {
+        border: 1px solid transparent;
+        border-top-left-radius: .25rem;
+        border-top-right-radius: .25rem;
+        height: 80px;
+        font-size: 13px;
+    }
+    .nav-link:hover {
+        border-color: #FC8E00 !important;
+    }
+    .aba_entrada_saida {
+        margin: 0 0 0 -10px !important;
+        width: 100px !important;
+    }
+    .logo_perdir_ja {
+        width: 45%;
+        margin-left: 7%;
+        transform: translate(-8px, -7px);
+    }
+    /* ------------------------------ ENTRADA SAIDA DE VALORES INICIO ---------------------------- */
+    #lado_direito_entrada_saida_valores {
+        margin-left: 2px;
+    }
+    .radio_entrada_saida_valores {
+        width: 120px;
+        height: 60px;
+        text-align: center;
+        padding-top: 15px;
+        background: #f1b26a;
+        border-radius: 30px;
+    }
+    #div_formuladorio_entrada_saida_valores {
+        margin: 51px 0px 0 -12px !important;
+        width: 360px;
+    }
+    #botao_finalizar_entrada_saida_valores {
+        width: 300px;
+    }
+    /* ------------------------------ ENTRADA SAIDA DE VALORS FIM ----------------------- */
+    /* -------------------------------------- CONFIGURACOES REST INICIO ---------------------------------     */
+    #rest_taxa_entrega {
+        margin-left: -113px;
+        border-radius: 15px 15px 15px 15px !important;
+        text-align: center;
+        width: 80%;
+        transform: translate(-80px, 55px);
+    }
+    .card_taxa_entrega_responsive {
+        width: 300px !important;
+        min-width: 300px !important;
+        max-width: 300px !important;
+    }
+    .funcionamento_rest_responsive {
+        margin: 55px 0px 0px 0px;
+    }
+    .taxa_entrega_config_responsive {
+        transform: translate(0px, 0px) !important;
+    }
+    .h4-hora-funcionamento {
+        font-size: 25px !important;
+    }
+    .h4-cadastro {
+        font-size: 25px !important;
+    }
+    .corrigir_responsive {
+        margin: 27px 0 0 -29px;
+    }
+    #rest_rua {
+        min-width: 180px;
+    }
+    #salvar_taxa_entrega {
+        transform: translate(-56px, 55px);
+    }
+    /* ---------------------------- ENTRADA SAIDA DE MERCADORIAS INICIO ------------------------- */
+    #label_entrada_saida_mercadoria_novo_custo {
+        margin-left: -140px;
+    }
+    #div_entrada_saida_mercadoria_center {
+        margin-left: -70px !important;
+    }
+    #label_entrada_saida_mercadoria_forma_pagamento {
+        margin: 50px 0 0 20px;
+        font-size: 25px;
+        text-align: center;
+    }
+    .opcionais_produto_entrada_saida_mercadorias {
+        margin-left: 0px !important;
+        max-width: 300px;
+    }
+    #botao_adicionar_entrada_saida_mercadoria button {
+        margin: 27px 0 0 0px !important;
+    }
+    #total_entrada_saida_mercadoria {
+        margin: 0px 0px 0px 0px !important;
+    }
+    /* -------------------------- ENTRADA SAIDA MERCADORIAS FIM --------------------------- */
+    /* --------------------------- CONFIGURACOES REST FIM --------------------------------- */
+    /* -------------------------------- MESAS --------------------------------------- */
+    .input_produto_tabela {
+        width: 130px;
+    }
+    table#itens_cliente.table {
+        margin: 0 0 0 -37px !important;
+        font-size: 13px;
+    }
+    .pagamento_mesa_responsivo {
+        margin: 0 0 15px 0;
+    }
+    #desconto_acrescimo_mesas {
+        width: 180px;
+        transform: translate(0px, 0px) !important;
+        margin: 15px 0 10px 50px;
+    }
+    #botao_fechar_mesa_responsivo {
+        width: 250px !important;
+        margin: 15px 0 0 26px;
+    }
+    #botao_desconto_mesa {
+        margin-left: 60px;
+    }
+    .responsivo_mesas {
+        width: 390px !important;
+        transform: translate(20px, 0px);
+    }
+    #primario {
+        margin: 0 0 0 0 !important;
+        padding: 0 0 0 0 !important;
+    }
+    #total_modal {
+        margin: 29px 12px 9px 60px !important;
+    }
+    #footer_menu {
+        margin: 18px 0 0 0;
+    }
+    #obs_produto {
+        margin-top: 10px;
+    }
+    #opcionais_mesa_responsivo {
+        margin-left: 0 !important;
+    }
+    #botao_adicionar_produto_mesa_responsivo {
+        width: 250px !important;
+        margin-left: 20px;
+    }
+    #div_garcom_mesa_responsivo {
+        margin: 0 0 0 20px;
+    }
+    h1.pagina_pedidos_pendentes {
+        margin-left: 0% !important;
+    }
+    .controle_qnt_produto_mesa {
+        width: auto !important;
+    }
+    /* ------------------------------- FRENTE CAIXA ---------------------------------- */
+    .entrada_saida {
+        margin: 14px 0 0 50px !important;
+    }
+    .adicionar_responsividade {
+        margin-left: 25px;
+    }
+    .centralizar_responsivo {
+        margin-left: 60px;
+    }
+    #lado_direito_frente_caixa {
+        margin: 0 0 0 2px;
+    }
+    #calcular_taxa_entrega_frente_caixa {
+        margin-right: 20px;
+        min-width: 275px;
+    }
+    #exibir_motoboy_frente_caixa {
+        min-width: 275px;
+    }
+    .centralizar_responsivo input {
+        min-width: 200px !important;
+    }
+    #select_cliente_produto {
+        min-width: 200px;
+    }
+    #quantidade_produto_frente_caixa_responsivo {
+        margin: 0 0 0 0 !important;
+    }
+    #botao_adicionar_frente_caixa_responsivo {
+        margin-top: 15px;
+        max-width: 250px;
+        text-align: center;
+    }
+    #remover_quantidade_produto_frente_caixa {
+        width: 50px !important;
+    }
+    #adicionar_quantidade_produto_frente_caixa {
+        width: 50px !important;
+    }
+    #total_com_taxa_entrega_frente_caixa {
+        margin: 0px 0px 15px -10px;
+        width: 300px;
+    }
+    #lado_direito_frente_caixa {
+        min-width: 300px;
+    }
+    #botao_todos_frente_caixa {
+        margin-top: 10px !important;
+    }
+    #p_forma_pagamento_frente_caixa {
+        width: 300px !important;
+    }
+    #select_tipo_pagamento_cliente_frente_caixa {
+        margin-right: -100px;
+    }
+    #botao_desconto_frente_caixa {
+        margin: 0 0 0 65px !important;
+    }
+    #botao_acrescimo_frente_caixa {
+        margin: 0 0 0 0 !important;
+    }
+    #desconto_acrescimo_frente_caixa {
+        margin: 11px 0 0px -240px;
+        transform: translate(0px, 0px) !important;
+    }
+}
+
+@media only screen and (min-device-width: 700px) and (max-device-width: 800px) {
+    .table td,
+    .table th {
+        padding: 0 0 0 0 !important;
+        font-size: 10px !important;
+    }
+}
